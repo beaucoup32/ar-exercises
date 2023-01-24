@@ -1,6 +1,5 @@
 require_relative '../setup'
 require_relative './exercise_1'
-require 'pp'
 
 puts "Exercise 2"
 puts "----------"
@@ -14,3 +13,4 @@ pp Store.all
 
 @store1.update(name: 'Something')
 
+pp @store1
